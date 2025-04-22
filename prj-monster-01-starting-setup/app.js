@@ -83,9 +83,9 @@ const app = Vue.createApp({
         this.playersHealth = 100;
       } else {
         this.playersHealth += healValue;
-      }
+      } // Prevent healing over 100
       this.addLogMessages("player", "heal", healValue);
-      this.attackPlayer();
+      this.attackPlayer(); // Heal first, then monster attack
     },
     surrender() {
       this.winner = "monster";
