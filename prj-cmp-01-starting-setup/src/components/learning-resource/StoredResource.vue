@@ -13,14 +13,14 @@
 <script>
 import LearningResource from './LearningResource.vue';
 export default {
+  props: ['resources'],
   components: {
     LearningResource,
   },
-  props: ['resources'],
 };
 </script>
 
-<style>
+<style scoped>
 ul {
   list-style: none;
   margin: 0;
