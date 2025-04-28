@@ -7,6 +7,7 @@
 import TheHeader from './components/layouts/TheHeader.vue';
 
 export default {
+  // The root component of the app
   components: {
     TheHeader,
   },
