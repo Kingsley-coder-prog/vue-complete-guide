@@ -1,6 +1,8 @@
 <template>
-  <the-header title="RememberMe"></the-header>
-  <the-resource></the-resource>
+  <main>
+    <the-header title="RememberMe"></the-header>
+    <the-resource></the-resource>
+  </main>
 </template>
 
 
