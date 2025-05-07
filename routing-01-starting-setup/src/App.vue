@@ -1,7 +1,9 @@
 <template>
-  <the-navigation></the-navigation>
   <main>
-    <router-view></router-view>
+    <the-navigation></the-navigation>
+    <main>
+      <router-view></router-view>
+    </main>
   </main>
 </template>
 
