@@ -24,7 +24,6 @@ const router = createRouter({
           props: true,
         },
       ],
-      // alias: '/teams-list', // this is an alternative path for the same component
     },
     {
       path: '/users',
