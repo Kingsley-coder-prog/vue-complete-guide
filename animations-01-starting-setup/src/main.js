@@ -6,8 +6,6 @@ import BaseModal from './components/BaseModal.vue';
 import AllUsers from './pages/AllUsers.vue';
 import CourseGoals from './pages/CourseGoals.vue';
 
-// Importing CSS
-
 const router = createRouter({
   history: createWebHistory(),
   routes: [
