@@ -6,7 +6,7 @@ import App from './App.vue';
 const store = createStore({
   state() {
     return {
-      counter: 0,
+      counter: 0, // initial state
     };
   },
   mutations: {
