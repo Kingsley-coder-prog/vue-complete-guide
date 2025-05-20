@@ -28,6 +28,9 @@ const counterModule = {
     },
   },
   getters: {
+    testAuth(state) {
+      return state.isLockedIn;
+    },
     finalCounter(state) {
       return state.counter * 3;
     },
