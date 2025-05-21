@@ -4,6 +4,7 @@ import { createStore } from 'vuex';
 import App from './App.vue';
 
 const counterModule = {
+  namespace: true,
   state() {
     return {
       counter: 0,
